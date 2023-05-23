@@ -9,8 +9,8 @@ const ItemDetailContainer = (itemId) => {
     pedirItemPorId(itemId)
     .then((res) => {
         setItem(res);
-    }, [itemId])
-   })
+    })
+   }, [itemId])
     return(
         <div>
            {item && <ItemDetail item={item}/> }
