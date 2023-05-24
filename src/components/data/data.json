@@ -122,7 +122,7 @@
         
             {
                 "id": 14,
-                "categoria": "extra de pestañas",
+                "categoria": "otros",
                 "titulo": "remocion de pestañas",
                 "precio": 900,
                 "img":"../assets/fondo.jpg",
@@ -131,7 +131,7 @@
             },
             {
                 "id": 15,
-                "categoria": "extra de pestañas",
+                "categoria": "otros",
                 "titulo": "strass",
                 "precio": 600,
                 "img":"../assets/logo.jpg",
@@ -140,7 +140,7 @@
             },
             {
                 "id": 16,
-                "categoria": "extra de pestañas",
+                "categoria": "otros",
                 "titulo": "Color en la punta",
                 "precio": 900,
                 "img":"../assets/fondo.jpg",
@@ -186,7 +186,7 @@
             },
             {
                 "id": 21,
-                "categoria": "otros de uñas",
+                "categoria": "otros",
                 "titulo": "strass x uña",
                 "precio": 100,
                 "img":"../assets/logo.jpg",
@@ -195,7 +195,7 @@
             },
             {
                 "id": 22,
-                "categoria": "otros de uñas",
+                "categoria": "otros",
                 "titulo": "Deco x uña o nail art x uña",
                 "precio": 100,
                 "img":"../assets/logo.jpg",
@@ -204,7 +204,7 @@
             },
             {
                 "id": 23,
-                "categoria": "otros de uñas",
+                "categoria": "otros",
                 "titulo": "Remocion de semi",
                 "precio": 700,
                 "img":"../assets/logo.jpg",
