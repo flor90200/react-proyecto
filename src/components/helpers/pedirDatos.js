@@ -13,7 +13,7 @@ export const pedirItemPorId = (id) =>{
         const item = data.find((el) => el.id === id);
 
         if(item){
-            resolve(item)
+            resolve(item);
         } else {
             reject ({
                 error:"No se encontro el producto"
