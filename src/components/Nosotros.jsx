@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 const Nosotros = () =>{
 
     useEffect(()=>{
-        const clickear = ()=>{
+        const clickear= ()=>{
             console.log("click");
         }
 

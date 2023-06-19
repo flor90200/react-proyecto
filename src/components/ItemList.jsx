@@ -1,6 +1,7 @@
 import Item from "./Item"
 import { toCapital } from "./helpers/toCapital"
 
+
 const ItemList = ({productos, titulo})=>{
     return (
         <div className="container">
