@@ -30,7 +30,7 @@ const Carrito = ()=>{
                 <h2>Precio total: ${precioTotal()} </h2>  
                 <button onClick={handleVaciar}>Vaciar</button>
                 </>:
-                <h2>El carrito esta vacio :( </h2>
+                <h2>El carrito esta vacio 😢 </h2>
                 }
         </div>
     )
