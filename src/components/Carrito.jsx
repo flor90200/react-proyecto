@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { CartContext } from "../context/CartContext";
+import Swal from "sweetalert2";
 
 const Carrito = ()=>{
 
@@ -8,6 +9,23 @@ const Carrito = ()=>{
 
     const handleVaciar = () => {
         vaciarCarrito();
+    }
+
+    const mostrarAlerta=()=>{
+        Swal.fire({
+            title: "Gracias por su compra 😍",
+            icon: "success",
+            button: "Aceptar",
+            background:"#E8A2E2",  confirmButtonText: 'Continuar',
+            confirmButtonColor: 'rgb(229, 112, 221)',
+             showClass: {
+               popup: 'animate__animated animate__flipInY'
+             },
+             hideClass: {
+               popup: 'animate__animated animate__flipOutY'
+             }
+           })
+        
     }
     return(
         <div className="container">
@@ -28,7 +46,7 @@ const Carrito = ()=>{
                carrito.length > 0 ?
                <>
                 <h2>Precio total: ${precioTotal()} </h2>  
-                <button onClick={handleVaciar}>Vaciar</button>
+                <button className="btn" onClick={mostrarAlerta}>Pagar</button>
                 </>:
                 <h2>El carrito esta vacio 😢 </h2>
                 }
