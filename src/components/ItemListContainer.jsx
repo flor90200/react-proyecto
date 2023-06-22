@@ -9,7 +9,7 @@ import { db } from "../firebase/config";
 const ItemListContainer = () => {
  const [productos, setProductos] = useState([]); 
    const categoria = useParams().categoria;
-   const [titulo] = useState("Productos");
+   const [titulo] = useState("Carrito de compras ❤");
  
  useEffect(() => {
   const productosRef = collection(db, "productos");

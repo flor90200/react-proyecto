@@ -1,11 +1,13 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import CartWidget from "./CartWidget"
-
+import logo from './assets/logo.jpg'
 const Navbar = ()=>{
     return(
         <nav className="navbar">
-            <Link to="./assets/logo.jpg" className="logo" />
+            <div className="logo">
+           <img src={logo} alt="" className="logo"/>
+            </div>
             <ul className="menu">
                 <li><Link to="/" className="menu-link">Inicio</Link></li>
                 <li><Link to="/productos" className="menu-link">productos</Link></li>
