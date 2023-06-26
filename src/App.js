@@ -7,8 +7,7 @@ import Contacto from './components/Contacto';
 import { CartProvider } from './context/CartContext';
 import Carrito from './components/Carrito';
 import Footer from './components/footer';
-
-
+import 'bootstrap/dist/css/bootstrap.css'
 function App (){
     return(
         <div>
@@ -23,7 +22,7 @@ function App (){
                   <Route path='/productos/:categoria' element={<ItemListContainer/>}/>
                 <Route path='/contacto' element={<Contacto/>} />
                 <Route path='/carrito' element={<Carrito/>} />
-                
+            
           
             </Routes>
         <Footer />
